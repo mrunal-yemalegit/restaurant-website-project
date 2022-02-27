@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+ }
+.container{
+     background-image: url("/images/background.jpg");
+     padding: 10px;
+     margin-top: 2%;
+     padding: 40px;
+     background-repeat: repeat;
+}
+ 
+.topnav{
+    background-color:  rgba(243, 116, 165, 0.5);
+    overflow: hidden;
+    text-indent: 250px;
+    padding:20px;
+    margin-top: 5%;
+}
+
+.topnav a{
+    position: relative;
+    color: white;
+    text-align: left;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black
+}
+
+@media screen and (max-width: 794px) {
+    .topnav a{
+        float: none;
+        display: block;
+        text-align: right;
+    }
+}
+ 
+.quote {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 10;
+    font-size: 32px;
+    color: rgb(240, 245, 245);
+    text-decoration: underline;
+    margin-top: 1%;
+}
+
+.grid-container{
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    color: rgb(231, 18, 107);
+    
+}
+
+@media screen and (max-width: 768px){
+    .grid-container{
+        width: auto;
+    }
+}
+
+.starter,.juices,.main-course,.rice,.roti,.dessert{
+    border: 1px solid black;
+    font-family: arial, sans-serif;
+    background-color: rgb(221, 209, 215);
+    opacity: 0.8;
+    text-align: left;
+    padding: 5px;
+
+    animation-duration: 10s;
+    animation-name: slidein-starter;
+
+    animation-duration: 10s;
+    animation-name: slidein-juices;
+
+    animation-duration: 10s;
+    animation-name: slidein-main-course;
+
+    animation-duration: 10s;
+    animation-name: slidein-rice;
+
+    animation-duration: 10s;
+    animation-name: slidein-roti;
+
+    animation-duration: 10s;
+    animation-name: slidein-dessert;
+}
+
+@keyframes slidein-starter {
+    from{
+        margin-left: 100%;
+    } 
+    to{
+        margin-left: 0%;
+    }
+}
+
+@keyframes slidein-juices {
+    from{
+        margin-left: 100%;
+    } 
+    to{
+        margin-left: 0%;
+    }
+}
+
+@keyframes slidein-main-course {
+    from{
+        margin-left: 100%;
+    } 
+    to{
+        margin-left: 0%;
+    }
+}
+
+@keyframes slidein-rice {
+    from{
+        margin-left: 100%;
+    } 
+    to{
+        margin-left: 0%;
+    }
+}
+
+@keyframes slidein-roti {
+    from{
+        margin-left: 100%;
+    } 
+    to{
+        margin-left: 0%;
+    }
+}
+
+@keyframes slidein-dessert {
+    from{
+        margin-left: 100%;
+    } 
+    to{
+        margin-left: 0%;
+    }
+}
+
+h3{
+    font-family: cursive;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+.foot{
+    margin-top: 2%;
+    background-color: rgba(243, 116, 165, 0.5);;
+    font-family: Georgia;
+    font-size: 15px;
+    color:white;
+    line-height: 1.5;
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport' content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="..\css\book.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <nav>
+                <a class="active" href="..\html\index.html">Home</a>
+                <a class="active" href="..\html\about.html">About</a>
+                <a class="active" href="..\html\menu.html">The Menu</a>
+                <a class="active" href="..\html\book.html">Book A Table</a>
+                <a class="active" href="..\html\login.html">Login/Signup</a>
+		    </nav>
+		</div>
+        <div class="container">
+            <div class="quote">
+                <h1>Book A Table</h1>
+            </div>
+            <center><div class="book-table">
+                <form name="book" method="get">
+                    Select Guests  <input type="number"><br><br>
+                    Select Date  <input type="date"><br><br>
+                    Select Time  <input type="time"><br><br>
+                    <button type="submit" onclick="myfunction()">Book</button>
+                </form>
+            </div></center>
+        </div>
+        <footer>
+            <div class="foot">
+                contact us:<br>
+                <i class="bi bi-telephone"></i>: 7387572483<br>
+                <i class="bi bi-envelope"></i>: yummyfoods@gmail.com<br>
+                <i class="bi bi-instagram"></i>: Yummy_Foods<br>
+                <i class="bi bi-twitter"></i>: Yummy_Foods_Twit<br>
+                <i class="bi bi-facebook"></i>: Yummy_Foods_fb
+            </div>
+        </footer>
+        <script>
+            function myfunction() {
+                alert("Table Reserved.")
+            }
+        </script>
+    </body>
+
+</html>
